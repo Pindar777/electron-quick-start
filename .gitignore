@@ -3,4 +3,4 @@
 .vscode
 node_modules
 ElectronShinyApp*
-/R-Win/library/
+shiny-electron-quick-start/R-Win/library/
