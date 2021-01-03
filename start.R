@@ -14,7 +14,7 @@ gitVersion <- system("git --version", intern=TRUE)
 #if git not available, notify to install git
 
 #git clone electron-shiny sample app
-system("git clone https://github.com/ColumbusCollaboratory/electron-quick-start")
+system("git clone https://github.com/ColumbusCollaboratory/shiny-electron-quick-start")
 
 #copy app.R and all files
 subDir <- "temp"
@@ -24,7 +24,7 @@ if (!file.exists(subDir)){
 }
 unlink("temp/*")
 
-file.copy(from=list.files('.', "*.R"), to="./electron-quick-start", 
+file.copy(from=list.files('.', "*.R"), to="./shiny-electron-quick-start", 
           overwrite=TRUE, recursive=TRUE, copy.mode=TRUE)
 
 #Run R Portable for platform you are on.  Install packages needed for Shiny app
