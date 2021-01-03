@@ -4,8 +4,11 @@
 ***This is a fork of https://github.com/ColumbusCollaboratory/electron-quick-start and
 updates the code in several ways.***
 
-However, as of now I deleted the OSX-R-Portable-Version.
-
+- switch to Electron 11.1.1
+- switch to standard R 4-03
+- as of now no OSX-R-(Portable)-Version inlcuded
+- new R user defined functions (on the basis of the photon RStudio Add-in)
+- new MakeShinyExe-R-Script to facilitate the process
 # ----------------------------------------------
 #
 #
@@ -31,13 +34,25 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and
 [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com))
 installed on your computer. 
 
-In order to get started open **MakeShinyExe.R** and run the first three lines of code.
+Note: If you're using Linux Bash for Windows, [see this
+guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/)
+or use `node` from the command prompt.
+
+
+**In order to get started just open *MakeShinyExe.R* and run the first three lines of code**.
 
 ## Run the App
 
-Continue in  **MakeShinyExe.R**.
+Continue in  **MakeShinyExe.R** in order to run oder build the app.
 
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+Notice that the 
+
+```
+shell(paste0("cd ", "./shiny-electron-quick-start && npm stop"))
+```
+
+helps to **end the electron-process**.
+
 
 ## Resources for Learning Electron
 
