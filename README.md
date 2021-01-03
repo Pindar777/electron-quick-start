@@ -4,6 +4,8 @@
 ***This is a fork of https://github.com/ColumbusCollaboratory/electron-quick-start and
 updates the code in several ways.***
 
+However, as of now I deleted the OSX-R-Portable-Version.
+
 # ----------------------------------------------
 #
 #
@@ -25,24 +27,15 @@ You can learn more about each of these components within the [Quick Start Guide]
 
 ## Basic Setup
 
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+To clone and run this repository you'll need [Git](https://git-scm.com) and
+[Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com))
+installed on your computer. 
 
-```bash
-# Clone this repository
-git clone https://github.com/ColumbusCollaboratory/shiny-electron-quick-start
-# Install Electron Packager (if first time)
-npm install electron-packager -g 
-# Go into the repository
-cd shiny-electron-quick-start
-# Install dependencies
-npm install
-# if needed
-npm audit fix
-```
+In order to get started open **MakeShinyExe.R** and run the first three lines of code.
 
 ## Run the App
 
-Exit the cmd and switch to **MakeShinyExe.R**.
+Continue in  **MakeShinyExe.R**.
 
 Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
