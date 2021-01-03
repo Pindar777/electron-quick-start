@@ -1,7 +1,7 @@
 {
   "name": "shiny-electron-APP",
   "version": "1.0.0",
-  "description": "A minimal Shiny-Electron application",
+  "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
