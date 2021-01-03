@@ -1,17 +1,18 @@
-#
+
 # ----------------------------------------------
 
-***This is a fork of https://github.com/ColumbusCollaboratory/electron-quick-start and
-updates the code in several ways.***
+This is a fork of https://github.com/ColumbusCollaboratory/electron-quick-start and
+updates the code in several ways.
 
-- switch to Electron 11.1.1
-- switch to standard R 4-03
-- as of now no OSX-R-(Portable)-Version inlcuded
-- new R user defined functions (on the basis of the photon RStudio Add-in)
-- new MakeShinyExe-R-Script to facilitate the process
+- Switch to Electron 11.1.1
+- Switch to standard R 4-03
+- As of now no MAC-OSX-R-(Portable)-Version included
+- New R user defined functions (on the basis of the photon RStudio Add-in)
+- New MakeShinyExe-R-Script to facilitate the process
+
 # ----------------------------------------------
-#
-#
+
+
 # shiny-electron-quick-start
 
 **Clone and run for a quick way to see Electron in action.**
