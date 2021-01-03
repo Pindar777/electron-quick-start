@@ -35,6 +35,12 @@ ui <- fluidPage(
 # Define server logic required to draw a histogram
 server <- function(input, output) {
    
+   # STANDARD FUNCTION close app when window is closed
+   observeEvent(input$close, {
+      js$closeWindow()
+      stopApp()
+   })
+   
    output$distPlot <- renderPlot({
       # generate bins based on input$bins from ui.R
       x    <- faithful[, 2] 
