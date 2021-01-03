@@ -4,4 +4,4 @@
 node_modules
 ElectronShinyApp*
 R-Win/library/
-
+*.code-workspace
