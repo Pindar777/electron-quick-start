@@ -3,7 +3,7 @@
 ***
 
 This is a fork of https://github.com/ColumbusCollaboratory/electron-quick-start and
-updates the code in several ways.
+updates the code in several ways:
 
 - Switch to Electron 11.1.1
 - Switch to standard R 4-03
