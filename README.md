@@ -1,6 +1,6 @@
 
 # ----------------------------------------------
-
+***
 This is a fork of https://github.com/ColumbusCollaboratory/electron-quick-start and
 updates the code in several ways.
 
@@ -9,7 +9,7 @@ updates the code in several ways.
 - As of now no MAC-OSX-R-(Portable)-Version included
 - New R user defined functions (on the basis of the photon RStudio Add-in)
 - New MakeShinyExe-R-Script to facilitate the process
-
+***
 # ----------------------------------------------
 
 
