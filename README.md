@@ -36,6 +36,8 @@ npm install electron-packager -g
 cd electron-quick-start
 # Install dependencies
 npm install
+# in case
+npm audit fix
 # Run the app
 npm start
 # Build the Executable/App
